@@ -66,7 +66,7 @@ mod tests {
     #[test]
     fn linux_test() {
         let result = get_disk_devices();
-        //println!("{:?}", result.list);
+        println!("{:?}", result.list);
         assert!(result.list.len() > 0);
     }
 }
