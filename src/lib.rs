@@ -64,7 +64,7 @@ mod tests {
 
     #[cfg(any(target_os = "linux", target_os = "macos"))]
     #[test]
-    fn linux_test() {
+    fn unix_test() {
         let result = get_disk_devices();
         println!("{:?}", result.list);
         assert!(result.list.len() > 0);
