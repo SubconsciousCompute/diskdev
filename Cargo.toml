@@ -5,4 +5,4 @@ edition = "2021"
 authors = ["Immad Mir <mirimmad17@gmail.com>"]
 
 [dependencies]
-sysinfo = "0.33.0"
+sysinfo = "0.33.1"
